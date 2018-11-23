@@ -1,0 +1,28 @@
+{
+  "name": "Music PikaBot",
+  "version": "1.0.0",
+  "description": "A discord bot only to play music. Well, it plays music in High Defination (HD) Quality..",
+  "main": "src/PikaBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PikaDev",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js#voice-krypton",
+    "fs-nextra": "0.3.4",
+    "klasa": "github:dirigeants/klasa",
+    "krypton": "github:Hackzzila/krypton#d0871c7b44db46e708f170abda081a7429c8400d",
+    "node-gyp": "^3.6.2",
+    "prism-media": "github:hydrabolt/prism-media",
+    "rethinkdbdash": "^2.3.31",
+    "ytdl-core": "^0.20.2",
+    "node-opus": "^0.3.0",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "ffmpeg-static": "2.3.0"
+ },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-klasa": "github:dirigeants/klasa-lint"
+  }
+}
